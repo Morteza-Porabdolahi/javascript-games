@@ -4,12 +4,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 60vh;
+    height: 100vh;
     background-color: #333;
 }
 form{
     background-color: crimson;
-    padding: 20px 10px;
+    padding: 22px 7px;
 }
 input[type = text]{
     outline: none;

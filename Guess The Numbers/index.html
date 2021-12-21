@@ -1,13 +1,48 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        p:first-of-type{
+            font-size: 20px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgb(207, 207, 207);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .number {
+            font-size: 20px;
+            outline: none;
+            border: 1px solid #333;
+            margin-right: 5px;
+            margin-bottom: 10px;
+        }
+        button{
+            border: none;
+            outline: none;
+            color: #fff;
+            background-color: crimson;
+            padding: 10px 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+    </style>
 </head>
+
 <body>
+    <p>Game Introduction : Green means you guess true , red means you most try lower number and blue means you most try higher number</p>
+    <p id="score"></p>
     <div class="game"></div>
     <button type="button">Start</button>
 </body>
 <script src="app.js"></script>
+
 </html>

@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    background-color: #333;
+}
+form{
+    background-color: crimson;
+    padding: 20px 10px;
+}
+input[type = text]{
+    outline: none;
+    padding: 15px 5px;
+    font-size: 18px;
+    width: 100%;
+    border: 1px solid #fff;
+}
+input[type = button]{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    width: 60px;
+    margin: 12px 7px;
+    cursor: pointer;
+}

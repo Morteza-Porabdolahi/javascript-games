@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.game {
+    width: 500px;
+    height: 200px;
+    border-bottom: 1px solid #333;
+    margin: auto;
+}
+
+#human {
+    position: relative;
+    background: url("dino.png") no-repeat center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    top: 150px;
+}
+
+#tree {
+    position: relative;
+    background-color: lime;
+    width: 20px;
+    height: 20px;
+    top: 130px;
+    left: 500px;
+    animation: tree 1s infinite linear;
+}
+
+.humanjump {
+    animation: jump .4s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 150px;
+    }
+    30% {
+        top: 100px;
+    }
+    70% {
+        top: 100px;
+    }
+    100% {
+        top: 150px;
+    }
+}
+
+@keyframes tree {
+    0% {
+        left: 500px;
+    }
+    100% {
+        left: -20px;
+    }
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    color: crimson;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+p span {
+    color: green;
+}

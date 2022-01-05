@@ -4,7 +4,6 @@ function showSlides() {
     var i = 0;
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
-    var button = document.getElementById('btn');
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none"
     }
